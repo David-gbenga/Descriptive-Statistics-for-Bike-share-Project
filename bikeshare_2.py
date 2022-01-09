@@ -154,13 +154,13 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # display total travel time
-    total_travel_time = df['Trip Duration'].sum()
+    total_travel_time = round(df['Trip Duration'].sum(),1)
 
     print('Total travel time:',total_travel_time)
 
 
     # display mean travel time
-    mean_travel_time = df['Trip Duration'].mean()
+    mean_travel_time = round(df['Trip Duration'].mean(),1)
 
     print('mean travel time:',mean_travel_time)
 
@@ -203,6 +203,7 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+def view_data(df):    
     p = 0
     q = 5
     while True:
@@ -212,8 +213,10 @@ def user_stats(df):
         df.reset_index()
         p += 5
         q += 5     
-        if viewData== 'no':
-            break   
+        if viewData== "no":
+            break
+        if  viewData != "no" or viewData !="yes":
+            print("Enter either Yes or No")
 
 def main():
     while True:
@@ -224,6 +227,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
+        view_data(df)
     
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
