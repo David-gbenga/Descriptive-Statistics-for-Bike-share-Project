@@ -212,8 +212,10 @@ def user_stats(df):
         df.reset_index()
         p += 5
         q += 5     
-        if viewData== 'no':
-            break   
+        if viewData== "no":
+            break
+        if  viewData != "no" or viewData !="yes":
+            print("Enter either Yes or No")
 
 def main():
     while True:
