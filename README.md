@@ -17,4 +17,8 @@ chicago.csv, washington.csv,new_york_city.csv and a python file to write the scr
 ### Credits
 Udacity Python for Datascience Nanodegree inspired this project
 
+### Contact Information
+Author : Kolawole David Olanipekun
+Email : olanipekunkolawole90@gmail.com
+Mobile Line: +2348067513221
 
