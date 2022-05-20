@@ -22,7 +22,7 @@ The files used include
 chicago.csv, washington.csv,new_york_city.csv and a python file to write the script
 
 ### Credits
-Udacity Python for Datascience Nanodegree inspired this project
+Udacity Nanodegree Projects
 
 ### Contact Information
 Author : Kolawole David Olanipekun
