@@ -1,4 +1,5 @@
-I have worked on a number of projects and one of them is one, I built an interactive and automated reporting system for an automobile leasing company. I showcased my programming and data analytic skills with top notch project management concepts by meeting the project objectives within the given deadline. This company had their presence in many cities in North America with operation data which recorded activities for each day of the week.
+Descriptive Bike Share Reporting Application:
+I built an interactive and automated reporting system for an automobile leasing company. I showcased my programming and data analytic skills with top notch project management concepts by meeting the project objectives within the given deadline. This company had their presence in many cities in North America with operation data which recorded activities for each day of the week.
 
 In other to generate insights from the company’s data and maintain a real time reporting system, I achieved the following deliverable using a number tools: Python, Power BI, Mysql, Ms-Excel, Jupyter Notebook, Git bash, Github, Anaconda Command Prompt, Ms-Power Point
 
